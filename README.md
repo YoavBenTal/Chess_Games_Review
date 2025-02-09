@@ -56,14 +56,24 @@ ipython: For interactive debugging and analysis.
 
 Installation
 
-Clone the repository:
+1. Clone the Repository
 
-git clone https://github.com/your_username/chess-review.git
+git clone https://github.com/your-repo/chess-review.git
 cd chess-review
 
-Install dependencies:
+2. **Install Dependencies**
+
+Ensure you have Python installed, then run:
 
 pip install -r requirements.txt
+
+3. **Install Stockfish**
+
+You need to download and install a Stockfish binary for the analysis.
+
+Download Stockfish from: https://stockfishchess.org/download/
+
+Install the binary and ensure it's accessible from your system's PATH or **specify its location** in chess_review.py.
 
 Usage
 
